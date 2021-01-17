@@ -1,0 +1,95 @@
+body {
+  box-sizing: border-box;
+  margin: .5em auto;
+  padding: 0;
+  width: 80%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: .5em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+header img {
+  width: 100px;
+}
+
+.card-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.product-card {
+  flex: 1 0 25%;
+  border: 2.5px black solid;
+  margin: 1em;
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.product-card header h2 {
+  text-align: center;
+  border-bottom: 1px lightblue solid;
+  margin: 0;
+  padding: .5em 0;
+}
+
+.card-image, .card-image-second-row {
+  text-align: center;
+}
+
+.card-image img, .card-image-second-row img {
+  width: 15em;
+  height: 15em;
+  text-align: center;
+}
+
+.card-image-second-row {
+  padding: 2.5em .5em;
+}
+
+article {
+  text-align: justify;
+  margin: 0 .3em;
+  height: 110px;
+}
+
+.availability {
+  color: yellow;
+  background-color: darkgray;
+  padding: .2em;
+  text-align: center;
+  font-style: italic;  
+  font-size: 1.2em;
+}
+
+.card-specs, .card-pricing {
+  font-weight: bold;
+  padding: 0 .5em;
+  text-align: center;
+}
+
+h4, .card-pricing header, p {
+  margin: .5em 0;
+}
+
+.card-specs p {
+  margin: .2em 0;
+}
+
+footer {
+  font-size: 12px;
+  margin: .5em 0;
+}
