@@ -1,3 +1,13 @@
+html { background: #0097A7; }
+.default-primary-color { background: #00BCD4; }
+.light-primary-color   { background: #B2EBF2; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #9E9E9E; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; 
+}
+
 body {
   box-sizing: border-box;
   margin: .5em auto;
@@ -48,16 +58,13 @@ header img {
 
 .card-image, .card-image-second-row {
   text-align: center;
+  padding: 2.5em .5em;
 }
 
 .card-image img, .card-image-second-row img {
   width: 15em;
   height: 15em;
   text-align: center;
-}
-
-.card-image-second-row {
-  padding: 2.5em .5em;
 }
 
 article {
@@ -67,7 +74,7 @@ article {
 }
 
 .availability {
-  color: yellow;
+  color: #E8EFA9;
   background-color: darkgray;
   padding: .2em;
   text-align: center;
