@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 html { background: #0097A7; }
 .default-primary-color { background: #00BCD4; }
 .light-primary-color   { background: #B2EBF2; }
@@ -13,6 +15,7 @@ body {
   margin: .5em auto;
   padding: 0;
   width: 80%;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 h1 {
@@ -70,7 +73,7 @@ header img {
 article {
   text-align: justify;
   margin: 0 .3em;
-  height: 110px;
+  height: 140px;
 }
 
 .availability {
